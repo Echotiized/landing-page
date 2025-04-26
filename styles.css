@@ -1,0 +1,90 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header, .intro, footer {
+    background-color: #1F2936;
+}
+
+header {
+    display: flex;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.header-link, .description {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.box {
+    border-radius: 10%;
+    border: 4px solid #3882f6;
+    width: 200px;
+    height: 200px;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: 1000;
+}
+
+.cta {
+    background-color: #3882f6;
+    color: white;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    gap: 0;
+}
+
+.signup {
+    font-weight: 100;
+}
+
+button {
+    color: white;
+    background-color: #3882f6;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+#button-cta {
+    border: 2px solid white;
+}
+
+footer {
+    color: white;
+}
